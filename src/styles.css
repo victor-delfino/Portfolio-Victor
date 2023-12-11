@@ -1,0 +1,165 @@
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: #7A7C80;
+
+}
+
+h2,.white{
+    color: #fff;
+}
+
+a{
+    color: #7A7C80;
+    text-decoration: none;
+}
+/* section 1 */
+.section-1{
+    padding-top: 30vh;
+    text-align: center;
+}
+
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+/* section 2 */
+.section-2{
+    padding-top: 5vh;
+    width: 70%;
+}
+
+.section-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-2 a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+/* animations / utilities */
+.section-2 a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}
+
+
+h2 {
+    font-family: 'Your-Desired-Font', sans-serif; /* Substitua 'Your-Desired-Font' pela fonte desejada */
+    font-weight: bold;
+}
+
+a {
+    color: #3498db; /* Altere a cor conforme desejado */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9; /* Altere a cor do hover conforme desejado */
+}
+
+.active-section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adapte conforme desejado */
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+    padding-left: 15px; /* Adapte conforme desejado */
+}
+
+ul li:before {
+    content: '\2022'; /* Código do caractere do marcador (pode ser alterado) */
+    position: absolute;
+    left: 0;
+    color: #7A7C80; /* Cor do marcador (altere conforme desejado) */
+    font-size: 1.1rem;
+}
+
+.action-button {
+    background-color: #3498db; /* Cor de fundo (altere conforme desejado) */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.action-button:hover {
+    background-color: #2980b9; /* Cor de fundo no hover (altere conforme desejado) */
+}
+
+.image-container {
+    text-align: center; /* Centraliza a imagem */
+    margin-bottom: 20px; /* Adiciona espaço entre a imagem e o nome */
+}
+
+.profile-img {
+    width: 250px; /* Ajuste conforme necessário */
+    height: 250px; /* Ajuste conforme necessário */
+    border-radius: 50%;
+}
+
+
