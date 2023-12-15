@@ -157,9 +157,20 @@ ul li:before {
 }
 
 .profile-img {
-    width: 250px; /* Ajuste conforme necessário */
-    height: 250px; /* Ajuste conforme necessário */
+    width: 250px; 
+    height: 250px; 
     border-radius: 50%;
 }
 
 
+/* Adicione este estilo para o novo link */
+.section-1 a:nth-child(2) {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-left: 10px; /* Ajuste o espaçamento conforme necessário */
+}
+
+/* Adicione este estilo para o ícone do PDF para download */
+.section-1 a:nth-child(2) i {
+    margin-right: 5px; /* Ajuste o espaçamento conforme necessário */
+}
